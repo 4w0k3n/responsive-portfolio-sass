@@ -146,7 +146,7 @@ body {
   font-family: "Segone UI", Tahoma, Geneva, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url(../dist/img/background.jpg);
+    background: url(https://i.ibb.co/G3N9zN9/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
     body#bg-img:after {

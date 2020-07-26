@@ -130,7 +130,43 @@ main {
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
 }
-
+// Projects
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.7rem;
+  img {
+    width: 100%;
+    border: 3px #fff solid;
+    &:hover {
+      opacity: 0.5;
+      border-color: $secondary-color;
+      transition: all 1s ease-out;
+    }
+  }
+}
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  &:hover {
+    border-color: $secondary-color;
+    transition: all 1s ease-out;
+  }
+}
+.btn-dark {
+  border: 1px #fff solid;
+  @extend .btn;
+  background: darken($primary-color, 50);
+  color: #fff;
+}
+.btn-light {
+  border: 2px #000 solid;
+  @extend .btn;
+  background: lighten($primary-color, 50);
+  color: #333;
+}
 #main-footer {
   font-size: 12px;
   text-align: left;

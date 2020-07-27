@@ -103,7 +103,8 @@
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-size: 3rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -305,7 +306,8 @@ main {
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      font-size: 3rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
